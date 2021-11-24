@@ -11,6 +11,7 @@ pipeline {
          steps {
             echo 'Build process..'            
             sh '''
+	    #Should Work
                 cd "${WORKSPACE}/scripts/"
                 chmod 755 *.sh
             '''
