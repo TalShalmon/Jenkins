@@ -29,7 +29,6 @@ pipeline {
             echo 'Deploy process..'
          }
       }
-      
    }
    post {   
 		always {
