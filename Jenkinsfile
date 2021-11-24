@@ -42,7 +42,7 @@ pipeline {
 			sh 'echo "BUILD_NUMBER=$BUILD_NUMBER failed" >> report'   
 		}   
 		unstable {   
-			echo 'I will only get executed if this is unstable'   
+			echo 'I will only get executed if this is unstable' 
 		}   
    }
 }
